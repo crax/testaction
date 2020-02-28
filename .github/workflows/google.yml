@@ -23,7 +23,7 @@ env:
   GKE_ZONE: asia-east1-a
   GKE_CLUSTER: testcluster
   IMAGE: testaction
-  REGISTRY_HOSTNAME: gcr.io
+  REGISTRY_HOSTNAME: asia.gcr.io
   DEPLOYMENT_NAME: testaction
 
 jobs:
