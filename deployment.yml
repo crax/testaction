@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
         - name: testaction
-          image: gcr.io/GKE_PROJECT/IMAGE:TAG
+          image: testaction-image #gcr.io/GKE_PROJECT/IMAGE:TAG
           ports:
             - containerPort: 3000
           resources:
