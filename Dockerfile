@@ -35,6 +35,7 @@ WORKDIR /app
 COPY Gemfile Gemfile.lock ./
 
 RUN bundle config build.nokogiri --use-system-libraries
+RUN bundle config --local build.sassc --disable-march-tune-native
 RUN bundle check || bundle install
 
 COPY package.json yarn.lock ./
