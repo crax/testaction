@@ -22,9 +22,9 @@ env:
   GITHUB_SHA: ${{ github.sha }}
   GKE_ZONE: asia-east1-a
   GKE_CLUSTER: testcluster
-  IMAGE: railstest
+  IMAGE: testaction
   REGISTRY_HOSTNAME: gcr.io
-  DEPLOYMENT_NAME: railstest
+  DEPLOYMENT_NAME: testaction
 
 jobs:
   setup-build-publish-deploy:
